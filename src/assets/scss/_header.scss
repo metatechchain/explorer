@@ -1,0 +1,108 @@
+.themeSwitch {
+    width: 90px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 27px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #F9BE50;
+
+    &__input {
+        display: none;
+    }
+
+    &__btn {
+        width: 33px;
+        height: 33px;
+        background-image: url('../img/sun.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%) translateX(-5px);
+        transition: all 0.2s ease-in-out;
+
+        &.off {
+            transform: translateY(-50%) translateX(-52px);
+        }
+    }
+}
+
+.search-input {
+    position: relative;
+    width: 100%;
+    max-width: 780px;
+
+    img {
+        position: absolute;
+        left: 18px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    input {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.24);
+        height: 48.31px;
+        border-radius: 40px;
+        color: #fff;
+        padding: 0px 30px 0px 60px;
+        font-size: 18px;
+        outline: none !important;
+
+        &::placeholder {
+        color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .search-input {
+    
+        input {
+            font-size: 16px;
+            line-height: 20px;
+
+        }
+    }
+
+    .logo {
+        max-width: 150px;
+        top: 20px;
+       
+    }
+
+    .themeSwitch {
+        font-size: 18px;
+    }
+}
+
+.nav-toggle-btn {
+    display: none;
+}
+
+@media screen and (max-width: 1199px) {
+    .nav-toggle-btn {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-toggle-btn {
+        position: absolute;
+        left: 19px;
+    }
+
+    .search-input {
+    
+        input {
+            height: 54.31px;
+        }
+    }
+}

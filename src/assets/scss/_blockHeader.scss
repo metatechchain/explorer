@@ -1,0 +1,93 @@
+.block-header {
+    h3 {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 32px;
+        color: #1E1E1E;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 45px;
+        color: #1E1E1E;
+    }
+
+    .data-count {
+        background: rgba(49, 188, 60, 0.1);
+        border-radius: 6px;
+        font-size: 25px;
+        line-height: 32px;
+        font-weight: 600;
+        color: #3BA4A6;
+        padding: 2px 14px;
+    }
+
+    .view-all {
+        background: rgba(49, 188, 60, 0.1);
+        border-radius: 0px 9px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+        color: #3BA4A6;
+        padding: 5px 22px;
+    }
+
+    .instruction {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #F8BF50;
+    }
+
+    .breadcrumb {
+        display: flex;
+        align-items: center;
+        color: #3BA4A6;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+
+        img {
+            margin: 0px 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .block-header {
+        h3 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h2 {
+            font-size: 28px;
+            line-height: 42px;
+        }
+
+        .data-count {
+            font-size: 19px;
+        }
+
+        .view-all {
+            font-size: 16px;
+            line-height: 23px;
+        }
+
+        .instruction {
+            font-size: 16px;
+        }
+
+        .breadcrumb {
+            font-size: 16px;
+            line-height: 20px;
+
+            img {
+                width: 100%;
+                max-width: 6px;
+            }
+        }
+    }
+}

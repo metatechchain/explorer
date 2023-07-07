@@ -1,0 +1,74 @@
+{
+  "name": "mtc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.14",
+    "animated-number-vue": "^1.0.0",
+    "apexcharts": "^3.40.0",
+    "apollo-boost": "^0.4.9",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link": "^1.2.14",
+    "apollo-link-error": "^1.1.13",
+    "apollo-link-http": "^1.5.17",
+    "apollo-link-retry": "^2.2.16",
+    "assert": "^2.0.0",
+    "core-js": "^3.8.3",
+    "dayjs": "^1.11.7",
+    "graphql": "^15.8.0",
+    "graphql-tag": "^2.12.6",
+    "shortid": "^2.2.16",
+    "stream-browserify": "^3.0.0",
+    "vue": "^2.6.14",
+    "vue-apexcharts": "^1.6.2",
+    "vue-apollo": "^3.1.0",
+    "vue-router": "^3.5.1",
+    "vue-timeago": "^5.1.3",
+    "vuex": "^3.6.2",
+    "vuex-persist": "^3.1.3",
+    "web3": "^0.20.7",
+    "web3-utils": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "postcss": "^8.4.23",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "tailwindcss": "^3.3.2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
